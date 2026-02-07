@@ -1,262 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FixMan - Pakistan's First Home Services Platform</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>FixMan - Home Services Simplified</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- Navigation Bullets -->
-    <div class="nav-bullets">
-        <a href="#slide1" class="bullet active"></a>
-        <a href="#slide2" class="bullet"></a>
-        <a href="#slide3" class="bullet"></a>
-        <a href="#slide4" class="bullet"></a>
-        <a href="#slide5" class="bullet"></a>
+    <!-- Ambient Background Animation -->
+    <div class="ambient-background">
+        <div class="blur-orb orb-1"></div>
+        <div class="blur-orb orb-2"></div>
+        <div class="blur-orb orb-3"></div>
     </div>
 
-    <!-- Slide 1: Hero -->
-    <section id="slide1" class="slide">
-        <div class="hero-background">
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Modern Home Background">
+    <nav class="navbar">
+        <div class="logo">FixMan.</div>
+        <div class="nav-links">
+            <a href="#hero">App</a>
+            <a href="#workers">For Workers</a>
+            <a href="privacy.html">Privacy</a>
         </div>
-        <div class="hero-content">
-            <div class="logo-container" data-aos="fade-down" data-aos-duration="1000">
-                <div class="logo-header">
-                    <img src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="FixMan Logo" class="logo-img">
-                    <h1 class="logo-text">FixMan</h1>
-                </div>
-                <h2 class="slogan" data-aos="fade-up" data-aos-delay="300">Pakistan's First Home Services Platform</h2>
-            </div>
-            <div class="service-icons" data-aos="zoom-in" data-aos-delay="600">
-                <div class="icon">
-                    <i class="fas fa-bolt"></i>
-                    <span>Electrician</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-bolt"></i>
-                    <span>Electrician1</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-bolt"></i>
-                    <span>Electrician2</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-bolt"></i>
-                    <span>Electrician3</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-tint"></i>
-                    <span>Plumber</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-broom"></i>
-                    <span>Cleaner</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-paint-roller"></i>
-                    <span>Painter</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-couch"></i>
-                    <span>Furniture</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-fan"></i>
-                    <span>AC Repair</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-tools"></i>
-                    <span>Carpenter</span>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-shield-alt"></i>
-                    <span>Security</span>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <span>Scroll Down</span>
-                <i class="fas fa-chevron-down bounce"></i>
-            </div>
-        </div>
-        <div class="hero-text-content" data-aos="fade-left" data-aos-delay="900">
-            <h3>Your Trusted Home Service Partner</h3>
-            <p>FixMan connects you with verified and skilled professionals for all your home service needs. Whether you need an electrician, plumber, cleaner, or any other home service, we've got you covered.</p>
-            <div class="key-features">
-                <div class="feature">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Verified Professionals</span>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Instant Service</span>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Affordable Rates</span>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-check-circle"></i>
-                    <span>24/7 Support</span>
-                </div>
-            </div>
-            <p class="cta-text">Join thousands of satisfied customers who trust FixMan for their home service needs. Download our app now and experience hassle-free home services at your fingertips.</p>
-        </div>
-    </section>
+    </nav>
 
-    <!-- Slide 2: How It Works -->
-    <section id="slide2" class="slide">
-        <div class="slide-background">
-            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80" alt="How It Works Background">
-        </div>
-        <div class="content">
-            <h2 data-aos="fade-down">How It Works</h2>
-            <div class="how-it-works-container">
-                <div class="steps-grid">
-                    <div class="work-step" data-step="1">
-                        <i class="fas fa-search"></i>
-                        <h3>Select Service</h3>
-                        <p>Choose from our wide range of home services</p>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Home services,<br>simplified.</h1>
+                <p class="hero-subtitle">Connect with verified professionals for electrical, plumbing, cleaning, and
+                    more. Instant booking, transparent pricing.</p>
+
+                <div class="download-area">
+                    <div class="qr-box">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://fixman.com"
+                            alt="Scan to Download">
+                        <span>Scan to download</span>
                     </div>
-                    <div class="work-step" data-step="2">
-                        <i class="fas fa-users"></i>
-                        <h3>View Workers</h3>
-                        <p>Browse through verified service providers</p>
-                    </div>
-                    <div class="work-step" data-step="3">
-                        <i class="fas fa-phone"></i>
-                        <h3>Call Directly</h3>
-                        <p>Connect with workers instantly</p>
-                    </div>
-                    <div class="work-step" data-step="4">
-                        <i class="fas fa-star"></i>
-                        <h3>Rate Service</h3>
-                        <p>Share your experience and rate the service</p>
-                    </div>
-                </div>
-                <div class="mobile-preview">
-                    <div class="phone-frame">
-                        <div class="phone-screen">
-                            <img src="https://placehold.co/300x600/png?text=Step+1:+Select+Service" alt="App Preview" class="app-preview" id="step1-image">
-                            <img src="https://placehold.co/300x600/png?text=Step+2:+View+Workers" alt="App Preview" class="app-preview" id="step2-image">
-                            <img src="https://placehold.co/300x600/png?text=Step+3:+Call+Worker" alt="App Preview" class="app-preview" id="step3-image">
-                            <img src="https://placehold.co/300x600/png?text=Step+4:+Rate+Service" alt="App Preview" class="app-preview" id="step4-image">
-                        </div>
+                    <div class="store-buttons">
+                        <a href="#" class="store-btn"><i class="fab fa-apple"></i> App Store</a>
+                        <a href="#" class="store-btn"><i class="fab fa-google-play"></i> Google Play</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Slide 3: Worker Registration -->
-    <section id="slide3" class="slide">
-        <div class="slide-background">
-            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Worker Registration Background">
-        </div>
-        <div class="content">
-            <h2 data-aos="fade-down">Become a Worker</h2>
-            <div class="registration-container">
-                <div class="registration-steps">
-                    <div class="registration-step" data-aos="fade-up" data-aos-delay="100">
-                        <i class="fas fa-user-plus"></i>
-                        <h3>Create Profile</h3>
-                        <p>Sign up and create your professional profile</p>
-                    </div>
-                    <div class="registration-step" data-aos="fade-up" data-aos-delay="200">
-                        <i class="fas fa-id-card"></i>
-                        <h3>Verify Identity</h3>
-                        <p>Complete identity verification process</p>
-                    </div>
-                    <div class="registration-step" data-aos="fade-up" data-aos-delay="300">
-                        <i class="fas fa-tasks"></i>
-                        <h3>Add Services</h3>
-                        <p>List your services and set your rates</p>
-                    </div>
-                    <div class="registration-step" data-aos="fade-up" data-aos-delay="400">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Set Location</h3>
-                        <p>Define your service area</p>
-                    </div>
-                    <div class="registration-step" data-aos="fade-up" data-aos-delay="500">
-                        <i class="fas fa-calendar-check"></i>
-                        <h3>Set Availability</h3>
-                        <p>Choose your working hours</p>
-                    </div>
-                    <div class="registration-step" data-aos="fade-up" data-aos-delay="600">
-                        <i class="fas fa-bell"></i>
-                        <h3>Get Jobs</h3>
-                        <p>Start receiving job requests</p>
-                    </div>
-                </div>
-                <div class="mobile-preview" data-aos="fade-left" data-aos-delay="700">
-                    <div class="phone-frame">
-                        <div class="phone-screen">
-                            <video autoplay loop muted playsinline>
-                                <source src="https://media.istockphoto.com/id/2150815733/video/asian-woman-using-ai-healthcare-equipment.mp4?s=mp4-640x640-is&k=20&c=BamkN1G5QEDs5YznjP2YcooOk8Ri3XPzhQ0yMoYWXe4=" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=400&q=80"
+                        alt="FixMan App Interface">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Slide 4: Download App -->
-    <section id="slide4" class="slide">
-        <div class="slide-background">
-            <img src="https://images.unsplash.com/photo-1616763355548-1b606f439f86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Download App Background">
-        </div>
-        <div class="content">
-            <h2 data-aos="fade-down">Download the App</h2>
-            <div class="download-section">
-                <div class="app-buttons" data-aos="fade-right" data-aos-delay="300">
-                    <a href="#" class="download-btn">
-                        <i class="fab fa-apple"></i>
-                        <span>App Store</span>
-                    </a>
-                    <a href="#" class="download-btn">
-                        <i class="fab fa-google-play"></i>
-                        <span>Play Store</span>
-                    </a>
+        <!-- User Process -->
+        <section class="process-section">
+            <div class="section-header">
+                <h2>How it works</h2>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <span class="step-number">01</span>
+                    <h3>Choose Service</h3>
+                    <p>Select from a wide range of home services.</p>
                 </div>
-                <div class="qr-code" data-aos="fade-left" data-aos-delay="600">
-                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://fixman.com" alt="Scan to download">
-                    <p>Scan to download</p>
+                <div class="process-step">
+                    <span class="step-number">02</span>
+                    <h3>Book Instantly</h3>
+                    <p>See verified workers nearby and book in seconds.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">03</span>
+                    <h3>Track & Pay</h3>
+                    <p>Track arrival and pay securely through the app.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Slide 5: Contact/Footer -->
-    <section id="slide5" class="slide">
-        <div class="slide-background">
-            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Contact Background">
-        </div>
-        <div class="content">
-            <div class="footer-content">
-                <div class="contact-info" data-aos="fade-right">
-                    <h3>Contact Us</h3>
-                    <p><i class="fas fa-envelope"></i> support@fixman.com</p>
-                    <p><i class="fas fa-phone"></i> +92 300 1234567</p>
-                </div>
-                <div class="footer-links" data-aos="fade-up">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">About Us</a>
-                </div>
-                <div class="social-icons" data-aos="fade-left">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
+        <!-- Worker Showcase (Video) -->
+        <section id="workers" class="worker-section">
+            <div class="worker-content">
+                <h2>Earn on your terms.</h2>
+                <p>Join thousands of professionals growing their business with FixMan.</p>
+                <ul class="worker-benefits">
+                    <li><i class="fas fa-check"></i> Zero lead fees</li>
+                    <li><i class="fas fa-check"></i> Instant payouts</li>
+                    <li><i class="fas fa-check"></i> Choose your schedule</li>
+                </ul>
+            </div>
+            <div class="worker-visual">
+                <div class="video-container">
+                    <!-- Placeholder for video -->
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Watch Registration Flow</span>
+                    </div>
+                    <!-- <video src="assets/worker-flow.mp4" controls></video> -->
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <span class="footer-logo">FixMan.</span>
+                <p>&copy; 2026 FixMan Inc.</p>
+            </div>
+            <div class="footer-right">
+                <a href="mailto:support@fixman.com">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
-</html> 
+
+</html>
